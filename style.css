@@ -1,0 +1,118 @@
+html, body {
+	margin: 0;
+	padding: 0;
+  }
+  canvas {
+	display: block;
+  }
+  p {
+	display: block;
+	position: absolute;
+	color: rgb(135, 161, 220);
+	top: 600px;
+	margin: 5px;
+  }
+  
+  /* Generic menu button */
+  .menu {
+	background: rgb(135, 161, 220);
+	border: solid rgb(79, 99, 181);
+	border-radius: 20px;
+	color: rgb(21, 40, 99);
+	font-size: 24px;
+	transition-duration: 0.2s;
+  }
+  .menu:hover {
+	background: rgb(79, 99, 181);
+	border-color: rgb(173, 247, 241);
+	color: rgb(247, 244, 234); 
+  }
+  
+  /* Scuffed sliders*/
+  .settings::-webkit-slider-runnable-track {
+	background: rgb(21, 40, 99);
+	border-radius: 4px;
+	height: 8px;
+  }
+  .settings::-webkit-slider-thumb {
+	margin-top: -4px;
+  }
+  
+  /* Level buttons, each with their own colours */
+  #level1 {
+	background: rgb(205, 243, 172);
+	border-color: rgb(143, 230, 114)
+  }
+  #level1:hover {
+	background: rgb(143, 230, 114);
+	border-color: rgb(173, 247, 241);
+  }
+  
+  #level2 {
+	background: rgb(179, 136, 235);
+	border-color: rgb(127, 82, 212);
+  }
+  #level2:hover {
+	background: rgb(127, 82, 212);
+	border-color: rgb(173, 247, 241);
+  }
+  
+  #level3 {
+	background: rgb(236, 155, 223);
+	border-color: rgb(236, 80, 184);
+  }
+  #level3:hover {
+	background: rgb(236, 80, 184);
+	border-color: rgb(173, 247, 241);
+  }
+  
+  #level4 {
+	background: rgb(153, 249, 212);
+	border-color: rgb(65, 237, 154);
+  }
+  #level4:hover {
+	background: rgb(65, 237, 154);
+	border-color: rgb(173, 247, 241);
+  }
+  
+  #level5 {
+	background: rgb(218, 65, 103);
+	border-color: rgb(198, 20, 32)
+  }
+  #level5:hover {
+	background: rgb(198, 20, 32);
+	border-color: rgb(173, 247, 241);
+  }
+  
+  /* Generic level button stuff */
+  .level {
+	border: solid black;
+	border-radius: 10px;
+	color: rgb(247, 244, 234);
+	font-size: 50px;
+	font-style: bold;
+	height: 100px;
+	width: 100px;
+	transition-duration: 0.2s;
+  }
+  .level:hover {
+	border-color: rgb(173, 247, 241);
+	color: rgb(247, 244, 234);
+  }
+  
+  /* Pause menu */
+  .pause {
+	background: rgb(135, 161, 220);
+	border: solid rgb(21, 40, 99);
+	border-radius: 10px;
+	color: rgb(21, 40, 99);
+	font-size: 30px;
+	height: 80px;
+	width: 200px;
+	transition-duration: 0.2s;
+  }
+  .pause:hover {
+	background: rgb(79, 99, 181);
+	border-color: rgb(173, 247, 241);
+	color: rgb(247, 244, 234);
+  }
